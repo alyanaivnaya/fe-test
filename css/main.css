@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'TomsHandwritten';
+    src: url('../fonts/toms/280747_0_0.eot');
+    src: url('../fonts/toms/280747_0_0.eot') format('embedded-opentype'), url('../fonts/toms/280747_0_0.woff') format('woff'), url('../fonts/toms/280747_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: TomsHandwritten;
+}
+
+.todolist {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	height: 500px;
+	width: 350px;
+	margin: auto;
+	font-size: 32pt;
+}
+
+.header {
+	text-align:center;
+	height: 100px;
+	line-height:100px;
+	color: #545454;
+}
+
+.list {
+	height: 280px;
+	overflow-y: scroll;
+	font-size: 16pt;
+	color: #545454;
+	padding: 0 15px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;	
+	height: 25px;
+}
+
+.fa-times {
+	color: #bdbdbd;
+	cursor: pointer;
+}
+
+.subm {
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+}
+
+.txt {
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	width: 220px;
+	border-radius: 5px;
+	border: 1px solid #545454;
+	font-size: 16pt; 
+}
+
+.btn {
+	box-sizing: border-box;
+	height: 100%;
+	width: 110px;
+	background: white;
+	color: #545454;
+	border-radius: 5px;
+	border: 1px solid #bdbdbd;
+	font-size: 16pt; 
+}
+
+.searchfield {
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #545454;
+	font-size: 16pt; 
+}
